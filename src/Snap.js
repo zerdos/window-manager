@@ -8,7 +8,7 @@ const SnapOptionsDefault = {
   windows: true,
   snap: 20,
   color: DEFAULT_COLOR,
-  spacing: 5,
+  spacing: 0,
   indicator: DEFAULT_SIZE,
 };
 
