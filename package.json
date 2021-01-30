@@ -9,7 +9,7 @@
   "main": "public/simple-window-manager.min.js",
   "module": "public/swm-esm.js",
   "scripts": {
-    "build": "yarn esbuild --platform=browser --minify --target=es2017 --bundle src/WindowManager.js --outfile=public/swm-esm.js"
+    "build": "yarn esbuild --platform=browser --minify --target=es2017 --bundle src/WindowManager.js --format=esm --outfile=public/swm-esm.js"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import { close, maximize, restore, resize } from './images'
+import { close, maximize, resize, restore } from "./images";
 
 /**
  * @typedef {object} WindowOptions
@@ -33,39 +33,39 @@ import { close, maximize, restore, resize } from './images'
  * @property {string} [resize=...]
  */
 export const windowOptions = {
-    x: 0,
-    y: 0,
-    width: undefined,
-    height: undefined,
-    modal: false,
-    openOnCreate: true,
+  x: 0,
+  y: 0,
+  width: undefined,
+  height: undefined,
+  modal: false,
+  openOnCreate: true,
 
-    classNames: {},
+  classNames: {},
 
-    minWidth: '200px',
-    minHeight: '60px',
-    borderRadius: 0,
-    styles: {},
+  minWidth: "200px",
+  minHeight: "60px",
+  borderRadius: 0,
+  styles: {},
 
-    shadow: 'none',
-    movable: true,
-    resizable: true,
-    maximizable: true,
-    closable: true,
+  shadow: "none",
+  movable: true,
+  resizable: true,
+  maximizable: true,
+  closable: true,
 
-    titlebar: true,
-    titlebarHeight: '2rem',
+  titlebar: true,
+  titlebarHeight: "2rem",
 
-    backgroundModal: 'rgba(0, 0, 0, 0.6)',
-    backgroundWindow: '#fefefe',
-    backgroundTitlebarActive: '#365d98',
-    backgroundTitlebarInactive: '#888888',
-    foregroundButton: '#ffffff',
-    foregroundTitle: '#ffffff',
+  backgroundModal: "rgba(0, 0, 0, 0.6)",
+  backgroundWindow: "#fefefe",
+  backgroundTitlebarActive: "#365d98",
+  backgroundTitlebarInactive: "#888888",
+  foregroundButton: "#ffffff",
+  foregroundTitle: "#ffffff",
 
-    closeButton: close,
-    maximizeButton: maximize,
-    restoreButton: restore,
+  closeButton: close,
+  maximizeButton: maximize,
+  restoreButton: restore,
 
-    backgroundResize: resize
-}
+  backgroundResize: resize,
+};
