@@ -277,8 +277,8 @@ export class Snap {
       this.horizontal.style.display = "block";
       this.horizontal.style.width = find.width + "px";
       this.horizontal.y = find.top - this.options.indicator / 2;
-      this.horizontal.style.transform =
-        `translate(${find.left}px,${this.horizontal.y}px)`;
+      // this.horizontal.style.transform =
+      //   `translate(${find.left}px,${this.horizontal.y}px)`;
       this.horizontal.side = find.side;
       this.horizontal.noSpacing = find.noSpacing;
       this.horizontal.screen = find.screen;
@@ -291,8 +291,8 @@ export class Snap {
       this.vertical.style.display = "block";
       this.vertical.style.height = find.height + "px";
       this.vertical.x = find.left - this.options.indicator / 2;
-      this.vertical.style.transform =
-        `translate(${this.vertical.x}px,${find.top}px)`;
+      // this.vertical.style.transform =
+      //   `translate(${this.vertical.x}px,${find.top}px)`;
       this.vertical.side = find.side;
       this.vertical.noSpacing = find.noSpacing;
       this.vertical.screen = find.screen;
