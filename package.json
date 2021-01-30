@@ -1,12 +1,11 @@
 {
   "name": "@zedvision/swm",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A javascript-only Window Manager",
   "main": "public/simple-window-manager.min.js",
   "module": "public/swm-esm.js",
   "scripts": {
     "build": "yarn esbuild --platform=browser --minify --target=es2017 --bundle src/WindowManager.js --outfile=public/swm-esm.js",
-    "prepublishOnly": "yarn build-demo && yarn build && yarn docs"
   },
   "repository": {
     "type": "git",
