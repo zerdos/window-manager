@@ -23,8 +23,8 @@
   "author": "David Figatner (david@yopeyopey.com)",
   "license": "MIT",
   "dependencies": {
-    "clicked": "^3.2.3",
-    "eventemitter3": "^4.0.4"
+    "clicked": "^4.0.3",
+    "eventemitter3": "^4.0.7"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^12.0.0",

@@ -188,10 +188,10 @@ chokidar@^3.3.0:
   optionalDependencies:
     fsevents "~2.3.1"
 
-clicked@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/clicked/-/clicked-3.2.3.tgz#bd32f775ca9e4a9acbc918439ead29276117f70b"
-  integrity sha512-5HmonYPwMciRc5sNEfbUSCJA690MMC9bkMdLPxASBz0H3S8uCxoMHP7o6y95TNCWUSl7DZyejQPzeg0uvmq7Ng==
+clicked@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/clicked/-/clicked-4.0.3.tgz#06bb5b8c6603866e78f06588e644f5e9c97f3af5"
+  integrity sha512-gsAXR5OHhjhFGLegYhI9D1Ac58/dAqDxyipXXsASmeIGAus1eKsKEq/7rsFiatoHQrTwDD9ttrIo7jtSQbsb+g==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -255,7 +255,7 @@ estree-walker@^1.0.1:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-1.0.1.tgz#31bc5d612c96b704106b477e6dd5d8aa138cb700"
   integrity sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==
 
-eventemitter3@^4.0.4:
+eventemitter3@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
   integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
